@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+
+	<body>
+
+	</body>
+	<script type="text/javascript">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//截取字符串中间用省略号显示
+		function getSubStr (str){
+		var subStr1 = str.substr(0,10);
+		var subStr2 = str.substr(str.length-5,5);
+		var subStr = subStr1 + "..." + subStr2 ;
+		return subStr;
+		}
+		
+		var str = "12312312asdasdxzczxaweqwdsadasdczxcasd";
+		
+		document.write(getSubStr(str)); 
+	</script>
+
+</html>
